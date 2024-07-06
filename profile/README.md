@@ -1,10 +1,26 @@
-pyvoice tries to provide for a smoother voice coding experience focusing on the  following features
+pyvoice is an experimental project that is aimed at developers that are writing python code using their voice instead of/alongside with a traditional keyboard. It attempts to provide them with specialized IDE features tailored at their use case, more specifically, it tries to
 
-- utilizes semantic analysis of python source code to  extract information ,such as  symbol names , attributes/methods of a particular variable and available importable modules, that the speech engine can use to improve its a recognition accuracy 
+- primarily improve the dictation accuracy for coding tasks  by extracting information from the user's codebase via static analysis and utilizing it as context for the speech recognition engine
 
-- allowing for more high level editing
+- secondarily allow for fine-grained, yet more high level editing
 
-At the moment the are grammar bindings available for Caster and Talon, and editorwise plugins for Sublime Text and VsCod
+The project follows a 3 tier architecture
+
+- at its core lies a customized language server, where all the heavy business logic takes place. It employs static analysis to determine what module names are available for importing, what variables and what attributes/methods they have etc..., and generates dictation hints for them. It can also being instructed to perform (for the time being limited) edits
+
+- a plugin for the users code editor, that is responsible for packaging/installing language_server ,launching it as a separate process and to exchange messages with it via appropriate extensions to [LSP](https://microsoft.github.io/language-server-protocol/). It acts as a middleman forwarding generated hints to and commands from the final component of the system, which is
+
+
+- an add-on/plugin/grammar file for the user's programming by voice system, that customize the system in a manner appropriate to take advantage of the functionality provided by the language server. 
+
+
+
+> [!IMPORTANT]
+> At this point is important to clarify that pyvoice ***is NOT a standalone voice coding system*** with its own speech recognition engine and/or specialized IDE/GUI environment, that you just download and use independently. 
+> Instead, it is meant as a set of extensions that should seamlessly integrate with your existing tooling and augment it with additional functionality.
+> At the moment the are grammar bindings available for [Caster](https://github.com/dictation-toolbox/Caster) and [Talon](https://talonvoice.com/), and editorwise plugins for Sublime Text and VsCode
+
+
 
 
 
