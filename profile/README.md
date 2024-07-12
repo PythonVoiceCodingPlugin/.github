@@ -20,7 +20,8 @@ The project follows a 3 tier architecture
 > Instead, it is meant as a set of extensions that should seamlessly integrate with your existing tooling and augment it with additional functionality.
 > At the moment the are grammar bindings available for [Caster](https://github.com/dictation-toolbox/Caster) and [Talon](https://talonvoice.com/), and editorwise plugins for Sublime Text and VsCode
 
+As stated above the project is still highly experimental, essentially having received the absolutely minimum amount of pollishing needed to transit from a tool privately used only by me to something that could be distributed to fellow voice coders. In order to make the time budget for this initial release, corners have been cut everywhere: with features being left out and multiple trade-offs made in all of the five components.
 
 
-
+TODO: add demo
 
