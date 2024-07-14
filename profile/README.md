@@ -1,3 +1,11 @@
+# Pyvoice
+
+[![License](https://img.shields.io/pypi/l/pyvoice-language-server)](https://opensource.org/licenses/GPL-3.0)
+[![Gitter](https://badges.gitter.im/PythonVoiceCodingPlugin/pyvoice.svg)](https://app.gitter.im/?updated=1.11.31#/room/#pythonvoicecodingpluginpyvoice:gitter.im)
+[![PyPI](https://img.shields.io/pypi/v/pyvoice-language-server.svg)](https://pypi.org/project/pyvoice-language-server/)
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/mpourmpoulis.pyvoice)](https://marketplace.visualstudio.com/items?itemName=mpourmpoulis.pyvoice)
+
+
 pyvoice is an experimental project that is aimed at developers that are writing python code using their voice instead of/alongside with a traditional keyboard. It attempts to provide them with specialized IDE features tailored at their use case, more specifically, it tries to
 
 - primarily improve the dictation accuracy for coding tasks  by extracting information from the user's codebase via static analysis and utilizing it as context for the speech recognition engine
