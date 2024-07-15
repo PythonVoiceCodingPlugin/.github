@@ -1,3 +1,6 @@
+
+
+
 # Pyvoice
 
 [![License](https://img.shields.io/pypi/l/pyvoice-language-server)](https://opensource.org/licenses/GPL-3.0)
@@ -11,6 +14,10 @@ pyvoice is an experimental project that is aimed at developers that are writing 
 - primarily improve the dictation accuracy for coding tasks  by extracting information from the user's codebase via static analysis and utilizing it as context for the speech recognition engine
 
 - secondarily allow for fine-grained, yet more high level editing
+
+
+
+![](https://github.com/user-attachments/assets/3fce0d2c-1979-4f35-be06-10802533ea3f)
 
 The project follows a 3 tier architecture
 
@@ -30,6 +37,4 @@ The project follows a 3 tier architecture
 
 As stated above the project is still highly experimental, essentially having received the absolutely minimum amount of pollishing needed to transit from a tool privately used only by me to something that could be distributed to fellow voice coders. In order to make the time budget for this initial release, corners have been cut everywhere: with features being left out and multiple trade-offs made in all of the five components.
 
-
-TODO: add demo
 
