@@ -1,4 +1,3 @@
-https://github.com/user-attachments/assets/3fce0d2c-1979-4f35-be06-10802533ea3f
 
 
 
@@ -16,9 +15,12 @@ pyvoice is an experimental project that is aimed at developers that are writing 
 
 - secondarily allow for fine-grained, yet more high level editing
 
+Shortened version of the expressions demo
+
+https://github.com/user-attachments/assets/3fce0d2c-1979-4f35-be06-10802533ea3f
 
 
-![](https://github.com/user-attachments/assets/3fce0d2c-1979-4f35-be06-10802533ea3f)
+## Architecture
 
 The project follows a 3 tier architecture
 
