@@ -9,16 +9,26 @@
 [![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/mpourmpoulis.pyvoice)](https://marketplace.visualstudio.com/items?itemName=mpourmpoulis.pyvoice)
 
 
+<div>
+<img src="https://raw.githubusercontent.com/PythonVoiceCodingPlugin/assets/main/pyvoice_logo.png" align="right" height=320 width=320/>
+</div>
+
 pyvoice is an experimental project that is aimed at developers that are writing python code using their voice instead of/alongside with a traditional keyboard. It attempts to provide them with specialized IDE features tailored at their use case, more specifically, it tries to
 
 - primarily improve the dictation accuracy for coding tasks  by extracting information from the user's codebase via static analysis and utilizing it as context for the speech recognition engine
 
-- secondarily allow for fine-grained, yet more high level editing
+- secondarily allow for fine-grained low level editing, in a more comfortable and natural style
 
-Shortened version of the expressions demo
+
+## Demos
+
+### Expressions
+
+Shortened version. Full demo [here](https://github.com/PythonVoiceCodingPlugin/assets/blob/main/demo-expressions-caster-sublime%20-%20mp4.mp4)
 
 https://github.com/user-attachments/assets/3fce0d2c-1979-4f35-be06-10802533ea3f
 
+### Imports
 
 ## Architecture
 
@@ -31,7 +41,7 @@ The project follows a 3 tier architecture
 
 - an add-on/plugin/grammar file for the user's programming by voice system, that customize the system in a manner appropriate to take advantage of the functionality provided by the language server. 
 
-
+## Notes
 
 > [!IMPORTANT]
 > At this point is important to clarify that pyvoice ***is NOT a standalone voice coding system*** with its own speech recognition engine and/or specialized IDE/GUI environment, that you just download and use independently. 
