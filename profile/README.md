@@ -28,13 +28,23 @@ Shortened version. Full demo [here](https://github.com/PythonVoiceCodingPlugin/a
 
 https://github.com/user-attachments/assets/3fce0d2c-1979-4f35-be06-10802533ea3f
 
-### Imports
+### Import Functionality
+
+#### Adding Module Imports
+
+https://github.com/user-attachments/assets/ee4adf72-e6cd-4fe4-8d8f-2fa48c8b9c50
+
+#### Adding Symbol Imports
+
 
 ## Architecture
 
 The project follows a 3 tier architecture
 
 - at its core lies a customized language server, where all the heavy business logic takes place. It employs static analysis to determine what module names are available for importing, what variables and what attributes/methods they have etc..., and generates dictation hints for them. It can also being instructed to perform (for the time being limited) edits
+
+
+
 
 - a plugin for the users code editor, that is responsible for packaging/installing language_server ,launching it as a separate process and to exchange messages with it via appropriate extensions to [LSP](https://microsoft.github.io/language-server-protocol/). It acts as a middleman forwarding generated hints to and commands from the final component of the system, which is
 
